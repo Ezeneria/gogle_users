@@ -1,3 +1,9 @@
-h2{
-  color: red
+.page{
+  &-footer{
+    background-color: #0f0f0f;
+  }
 }
+nav{
+  background-color: #0f0f0f;
+}
+

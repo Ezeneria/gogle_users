@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute, Params} from "@angular/router";
 
 @Component({
   selector: 'app-map',
@@ -6,14 +7,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
-  latitude = 51.67841;
-  longitude = 7.809;
+
+
   onChoseLocation(event){
     console.log(event)
   }
-  constructor() { }
-
+  constructor(private route: ActivatedRoute) { }
+  id: string;
+  name: string;
+  lat: number;
+  lng: number;
   ngOnInit() {
+
+    this.id = this.route.snapshot.params['id'];
+    this.name = this.route.snapshot.queryParams['name'];
+    this.lat = +this.route.snapshot.queryParams['lat'];
+    this.lng = +this.route.snapshot.queryParams['lng'];
+
+    this.route.params.subscribe((params: Params) => {
+      console.log(params);
+    });
   }
 
 }

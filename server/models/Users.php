@@ -9,8 +9,8 @@ use Yii;
  *
  * @property int $id
  * @property string $name
- * @property int $lat
- * @property int $lng
+ * @property double $lat
+ * @property double $lng
  * @property string $town
  * @property string $street
  * @property string $house
@@ -32,7 +32,7 @@ class Users extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['lat', 'lng'], 'integer'],
+            [['lat', 'lng'], 'number'],
             [['name', 'town', 'street', 'house', 'message'], 'string', 'max' => 255],
         ];
     }

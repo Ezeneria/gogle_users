@@ -18,8 +18,9 @@ class UsersSearch extends Users
     public function rules()
     {
         return [
-            [['id', 'lat', 'lng'], 'integer'],
+            [['id'], 'integer'],
             [['name', 'town', 'street', 'house', 'message'], 'safe'],
+            [['lat', 'lng'], 'number'],
         ];
     }
 

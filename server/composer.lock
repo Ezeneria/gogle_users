@@ -274,12 +274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "a741165ee91603518286fc28d4ee273ae3a0ef60"
+                "reference": "8f5552372f3463b1557e4c771f4710bb75985c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a741165ee91603518286fc28d4ee273ae3a0ef60",
-                "reference": "a741165ee91603518286fc28d4ee273ae3a0ef60",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8f5552372f3463b1557e4c771f4710bb75985c55",
+                "reference": "8f5552372f3463b1557e4c771f4710bb75985c55",
                 "shasum": ""
             },
             "require": {
@@ -366,7 +366,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2018-06-14T17:23:10+00:00"
+            "time": "2018-06-27T19:29:50+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -618,12 +618,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/base.git",
-                "reference": "b41e442cbf8b7a269b74492a12fb1cf2bd06c3b8"
+                "reference": "a1416d3cd829bf8decb491143b3e8f8e02ee827f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/base/zipball/b41e442cbf8b7a269b74492a12fb1cf2bd06c3b8",
-                "reference": "b41e442cbf8b7a269b74492a12fb1cf2bd06c3b8",
+                "url": "https://api.github.com/repos/Codeception/base/zipball/a1416d3cd829bf8decb491143b3e8f8e02ee827f",
+                "reference": "a1416d3cd829bf8decb491143b3e8f8e02ee827f",
                 "shasum": ""
             },
             "require": {
@@ -699,7 +699,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2018-05-26T22:24:57+00:00"
+            "time": "2018-06-26T14:35:46+00:00"
         },
         {
             "name": "codeception/phpunit-wrapper",

@@ -1,12 +1,16 @@
 <div class="map">
+  <h4>Имя пользователя: {{name}}</h4>
+  <h5>Широта: {{lat}}</h5>
+  <h5>Долгота: {{lng}}</h5>
+
   <agm-map
-    [latitude]="latitude"
-    [longitude]="longitude"
+    [latitude]="lat"
+    [longitude]="lng"
     (mapClick)="onChoseLocation($event)"
   >
     <agm-marker
-      [latitude]="latitude"
-      [longitude]="longitude"
+      [latitude]="lat"
+      [longitude]="lng"
     ></agm-marker>
   </agm-map>
 </div>
